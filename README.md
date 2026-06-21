@@ -1,307 +1,159 @@
-# PVGU-RCUR
+# PVGU-RCUR — Repositório Científico Unificado
+## Princípio da Vibração Geométrica Universal (PVGU)  
+**Universal Geometric Framework (UGF/PVGU)**
 
-# Universal Geometric Framework (UGF)
-
-## Princípio da Vibração Geométrica Universal (PVGU)
-
-### Repositório Científico Unificado
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Status](https://img.shields.io/badge/status-active-success)
-![Research](https://img.shields.io/badge/research-15%2B%20years-blue)
-![Framework](https://img.shields.io/badge/framework-PVGU-purple)
+**Status:** Ativo | **Maturidade:** Experimental Avançada | **Licença:** MIT
 
 ---
 
 ## Visão Geral
 
-O **PVGU-RCUR** (PVGU Research Consolidated Unified Repository) é o repositório científico oficial do **Universal Geometric Framework (UGF/PVGU)**.
+O **PVGU-RCUR** (PVGU Research Consolidated Unified Repository) é o repositório oficial do **Universal Geometric Framework (UGF/PVGU)**.
 
-Este projeto consolida mais de **15 anos de pesquisa independente** sobre persistência geométrica, impedância do espaço-tempo, propagação modulada, geometria efetiva e detecção de assinaturas estruturais em sistemas naturais e cosmológicos.
+Este projeto consolida mais de 15 anos de pesquisa independente sobre:
 
-O objetivo é disponibilizar uma infraestrutura científica aberta, reproduzível e continuamente auditável.
+- Geometria efetiva e persistência estrutural do espaço-tempo
+- Impedância geométrica e propagação modulada
+- Dinâmica vibracional elástica
+- Testes observacionais em cosmologia, ondas gravitacionais e grandes estruturas
 
-O framework integra:
+O PVGU propõe um **quadro estrutural complementar** ao modelo ΛCDM, com foco em:
+- Interfaces geométricas e regimes de transição
+- Efeitos de impedância do espaço-tempo
+- Relaxamento vibracional como origem de fenômenos cosmológicos
 
-- Cosmologia observacional
-- Ondas gravitacionais
-- Buracos negros
-- Grandes vazios cósmicos
-- Propagação geométrica
-- Persistência estrutural
-- Geometria efetiva
-- Anomalias astronômicas
-- Tecnoassinaturas
-- Física de campo efetiva não linear
+> **Importante:** O PVGU **não substitui** a Relatividade Geral nem o modelo ΛCDM. É uma proposta de extensão efetiva em regimes específicos.
 
 ---
 
-# Autor
+## Estrutura do Repositório (Recomendada)
 
-**Isaías Balthazar da Silva**
+pvgu-framework/
+├── README.md
+├── LICENSE
+├── core_theory/                  # ← NOVA PASTA (Tier 0 - Core Científico)
+│   ├── POSTULATES.md             # Postulados mínimos
+│   ├── EQUATIONS.md              # Formulação matemática unificada
+│   ├── GLOSSARY.md               # Glossário de termos
+│   └── PREDICTIONS_CATALOG.md    # Catálogo de previsões (em desenvolvimento)
+│
+├── cosmological_tests/           # Testes Tier 0 (Pantheon, voids, GW, Hubble tension...)
+├── astrophysical_tests/
+├── extensions_neural/            # Extensões empíricas (coerência neural)
+├── exploratory/                  # Hipóteses exploratórias e especulativas
+├── data/
+├── results/
+├── notebooks/                    # Notebooks legados
+└── docs/
+---
 
-Pesquisador independente.
+## Documentação Canônica (Tier 0)
 
-Autor dos livros:
+A formulação científica central está em:
 
-- *Enigma da Lua – Existe Vida Extraterrestre Inteligente?*
-- *A Lua Revelada: A Possível Tecnoassinatura na Cratera Webb*
+- **[core_theory/POSTULATES.md](core_theory/POSTULATES.md)** — Os 5 postulados mínimos do PVGU
+- **[core_theory/EQUATIONS.md](core_theory/EQUATIONS.md)** — Formulação matemática unificada (campo vibracional + framework elástico)
+
+Esses documentos representam a **base canônica** do Tier 0 e devem ser atualizados com versionamento controlado.
 
 ---
 
-# Filosofia Científica
+## Publicações Científicas (Zenodo)
 
-O PVGU não se propõe a substituir o modelo ΛCDM.
-
-Seu posicionamento atual é o de um **framework estrutural complementar**, especializado em:
-
-- Interfaces geométricas
-- Regiões de transição
-- Anisotropias locais
-- Persistência estrutural
-- Propagação modulada
-- Regimes de impedância do espaço-tempo
+| Título | DOI |
+|--------|-----|
+| The Universal Geometric Vibration Principle (PVGU) | [10.5281/zenodo.18421810](https://doi.org/10.5281/zenodo.18421810) |
+| Evidence for Resonant Spacetime Excitation and Geometric Impedance (GW190521) | [10.5281/zenodo.18511558](https://doi.org/10.5281/zenodo.18511558) |
+| Modulated Propagation in Spacetime | [10.5281/zenodo.19462336](https://doi.org/10.5281/zenodo.19462336) |
+| Estruturas Esféricas na Cratera Webb | [10.5281/zenodo.18489082](https://doi.org/10.5281/zenodo.18489082) |
 
 ---
 
-# Objetivos Científicos
+## Laboratórios Computacionais
 
-O framework investiga:
+Os principais notebooks e análises estão organizados em:
 
-### Cosmologia
+- **Cosmologia**: Testes com Pantheon+ (aceleração cósmica), voids BOSS, tensão de Hubble
+- **Ondas Gravitacionais**: GW190521 e eventos de fusão
+- **Buracos Negros e Vazios**: Complementaridade vibracional (Sagitário A* × Boötes Void)
+- **Astrofísica Observacional**: FRBs, aglomerados, etc.
+- **Física Fundamental**: Constante de estrutura fina, tunelamento geométrico
 
-- Estrutura em grande escala
-- Vazios cósmicos
-- Persistência geométrica
-- Acoplamentos estruturais
-
-### Ondas gravitacionais
-
-- Buracos negros
-- Assinaturas ressonantes
-- Geometria efetiva
-- Regimes de propagação
-
-### Tecnoassinaturas
-
-- Estruturas artificiais
-- Anomalias lunares
-- Cratera Webb
-- PNO/ONTI
-
-### Física fundamental
-
-- Impedância geométrica
-- Tunelamento geométrico
-- Propagação modulada
-- Operadores estruturais
+> Os notebooks mais atualizados e organizados estão sendo migrados para as pastas temáticas (`cosmological_tests/`, `astrophysical_tests/`, etc.).
 
 ---
 
-# Estrutura do Ecossistema PVGU
+## Objetivos Científicos
 
-## Framework principal
+O PVGU investiga:
 
-PVGU (Universal Geometric Vibration Principle)
-
-↓
-
-PVGU-EF
-
-(Effective Field Framework)
-
-↓
-
-PVGU-RCUR
-
-(Repositório Científico Unificado)
-
-↓
-
-Laboratórios experimentais
-
-↓
-
-Auditorias estatísticas
-
-↓
-
-Notebooks reproduzíveis
+- **Cosmologia**: Estrutura em grande escala, vazios cósmicos, origem da aceleração aparente via relaxamento vibracional
+- **Astrofísica**: Assinaturas ressonantes em ondas gravitacionais, buracos negros e vazios
+- **Física Fundamental**: Impedância geométrica como mecanismo alternativo ou complementar à matéria escura em certos regimes
+- **Testes de Falsificabilidade**: Comparações quantitativas com ΛCDM usando dados reais (Pantheon, BOSS, LIGO/Virgo, etc.)
 
 ---
 
-# Publicações Científicas (Zenodo)
+## Metodologia
 
-## PVGU Framework Principal
-
-### The Universal Geometric Vibration Principle (PVGU)
-
-https://doi.org/10.5281/zenodo.18421810
-
----
-
-## PVGU aplicado ao GW190521
-
-### Evidence for Resonant Spacetime Excitation and Geometric Impedance
-
-https://doi.org/10.5281/zenodo.18511558
-
----
-
-## PVGU Effective Field Framework
-
-### Modulated Propagation in Spacetime
-
-https://doi.org/10.5281/zenodo.19462336
-
----
-
-## PNO / ONTI
-
-### Estruturas Esféricas na Cratera Webb
-
-https://doi.org/10.5281/zenodo.18489082
-
----
-
-# Universo em Paradoxo
-
-Blog oficial do projeto:
-
-https://universoemparadoxo.blogspot.com
-
----
-
-# Laboratórios Computacionais (Google Colab)
-
-## Consolidação Teórica
-
-- Consolidação Epistemológica
-- PVGU-H5
-- PVGU-ONTO
-- Laboratório PVGU
-
-## Cosmologia
-
-- PVGU Pantheon
-- Cosmic Acceleration
-- ΛCDM × PVGU
-- PVGU × ΛCDM
-- PVGU Bullet Cluster
-- PVGU vs NFW
-
-## Ondas Gravitacionais
-
-- PVGU-BHMERGER
-- PVGU – Ondas Gravitacionais
-- GW190521
-
-## Buracos Negros e Voids
-
-- Vazio de Bootes
-- Sagittarius A*
-- Sagittarius A* × Bootes Void
-- PVGU-VOID-RM
-
-## Astrofísica Observacional
-
-- Planet 9
-- FRB
-- FRBs
-- Estrela Tabby
-- 3I/ATLAS
-
-## Lua e Tecnoassinaturas
-
-- Esferas da Cratera Webb
-- Skinwalker Ranch
-- Skinwalker Ranch (versão experimental)
-
-## Física Fundamental
-
-- Casimir Test
-- Constante de Estrutura Fina
-- Fibonacci
-- Tunelamento
-- Tecnologia de Tunelamento PVGU
-
-## Outros Projetos
-
-- Bentov
-- Aglomerados
-- Sprite
-- CDG-2
-- Viagem Interestelar
-
----
-
-# Metodologia Científica
-
-Todos os experimentos seguem os princípios:
+Todos os experimentos seguem os princípios de:
 
 - Reprodutibilidade
 - Falsificabilidade
-- Auditorias estatísticas
-- Testes nulos
-- Comparação com modelos de referência
+- Testes nulos e controles
+- Comparação direta com modelos de referência (ΛCDM)
 - Transparência computacional
 
 ---
 
-# Situação Atual do Framework
+## Ecossistema PVGU
 
-Status: **Ativo**
-
-Maturidade: **Experimental Avançada**
-
-Posicionamento:
-
-**Framework estrutural complementar ao ΛCDM**
-
----
-
-# Licença
-
-Este projeto está licenciado sob a licença MIT.
-
-Consulte o arquivo LICENSE.
+PVGU (Princípio)
+↓
+PVGU-EF (Estrutura de Campo Efetiva)
+↓
+PVGU-RCUR (Repositório Unificado) ← este repositório
+↓
+Laboratórios → Auditorias → Publicações
 
 ---
 
-# Citação
+## Blog Oficial
 
-Caso utilize este trabalho, cite:
-
-Balthazar da Silva, I.
-
-Universal Geometric Framework (UGF/PVGU)
-
-GitHub Repository
-
-https://github.com/isaiasbalthazar-arch/pvgu-framework
-
----
-
-# Contato
-
-Blog oficial:
-
+**O Universo em Paradoxo**  
 https://universoemparadoxo.blogspot.com
 
-GitHub:
+---
 
-https://github.com/isaiasbalthazar-arch/pvgu-framework
+## Citação
 
-Zenodo:
+Se utilizar este trabalho, cite:
 
-https://zenodo.org
+> Balthazar da Silva, I. (2026). *Quadro Geométrico Universal (UGF/PVGU) — Repositório Científico Unificado (PVGU-RCUR)*. GitHub.  
+> https://github.com/isaiasbalthazar-arch/pvgu-framework
 
 ---
 
-# Declaração Científica
+## Contato e Links
 
-O PVGU é um programa de pesquisa aberto, evolutivo e auditável.
+- **Blog**: https://universoemparadoxo.blogspot.com
+- **GitHub**: https://github.com/isaiasbalthazar-arch/pvgu-framework
+- **Zenodo**: https://zenodo.org (busque por "PVGU" ou "Balthazar da Silva")
 
-Os resultados apresentados representam hipóteses físicas, modelos efetivos e evidências estatísticas em contínuo processo de validação observacional.
+---
 
+## Declaração
+
+O PVGU é um **programa de pesquisa aberto, evolutivo e auditável**.
+
+Os resultados apresentados representam hipóteses físicas, modelos e evidências estatísticas em processo contínuo de validação.  
 Nenhuma afirmação é apresentada como teoria física estabelecida.
+
+---
+
+**Autor:** Isaías Balthazar da Silva  
+**Última atualização:** Junho 2026
+
+---
+
+*Este README está em processo de consolidação. A estrutura de pastas e a documentação canônica (core_theory/) estão sendo implementadas.*
