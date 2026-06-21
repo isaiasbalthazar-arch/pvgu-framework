@@ -1,0 +1,63 @@
+# PVGU — Formulação Matemática Unificada (Tier 0)
+
+**Versão:** 1.0 (Junho 2026)  
+**Autor:** Isaías Balthazar da Silva  
+**Status:** Proposta para revisão
+
+---
+
+## 1. Campo Vibracional Fundamental
+
+O espaço-tempo é descrito por um campo escalar vibracional \( \Psi(x,t) \).
+
+### Lagrangiana
+\[ \mathcal{L} = \frac{1}{2} \left( \frac{\partial \Psi}{\partial t} \right)^2 - \frac{c^2}{2} (\nabla \Psi)^2 - V(\Psi) \]
+
+### Equação de Movimento
+\[ \frac{\partial^2 \Psi}{\partial t^2} - c^2 \nabla^2 \Psi + \frac{dV}{d\Psi} = 0 \]
+
+---
+
+## 2. Impedância Geométrica
+
+### Definição Básica
+\[ Z(x,t) = \sqrt{\frac{\rho(x,t)}{K(x,t)}} \]
+
+### Versão com Gradientes
+\[ Z_g = \frac{\partial C / \partial x}{\partial \rho / \partial x} \]
+
+### Gravidade Efetiva
+\[ G_{\rm eff}(x,t) = G \cdot [1 + Z(x,t)] \]
+
+### Equação de Gravidade Modificada
+\[ \nabla \cdot \vec{g} = -4\pi G \rho + \nabla Z \]
+
+---
+
+## 3. Rigidez e Expansão Cosmológica
+
+### Rigidez Efetiva
+\[ C(z) = C_0 (1+z)^\beta \, e^{-\gamma z} \]
+
+### Equação de Friedmann Modificada
+\[ H(z)^2 = H_0^2 \left[ \Omega_m (1+z)^3 + \Omega_r (1+z)^4 + \Gamma(z) \right] \]
+
+**Interpretação**: A aceleração aparente surge do relaxamento vibracional da malha elástica.
+
+---
+
+## 4. Estabilidade Multiversal
+
+\[ \Omega = e^{-\lambda \Delta G} \cdot e^{-\mu \Delta \alpha} \cdot \cos(\Phi V) \cdot S(\kappa) \]
+
+---
+
+## 5. Relação com Observáveis
+
+- **Atraso fotônico**: \( \Delta t_{\rm geom} \propto \int Z(x,t) \, ds \)
+- **Neutrinos**: Menor atraso gravitacional efetivo (transmissão via modos vibracionais).
+- **Ondas Gravitacionais**: Possíveis componentes ressonantes quando a impedância local se aproxima de valores críticos (ex.: GW190521).
+
+---
+
+*Este arquivo deve residir em `core_theory/EQUATIONS.md`.*
