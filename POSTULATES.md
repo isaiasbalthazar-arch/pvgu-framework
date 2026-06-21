@@ -1,8 +1,8 @@
 # PVGU — Postulados Mínimos (Tier 0 — Core Científico)
-**Versão:** 0.9 (Proposta inicial — Junho 2026)  
-**Autor:** Isaías Balthazar da Silva (com consolidação inicial por Grok)  
-**Status:** Rascunho para revisão e refinamento pelo autor principal  
-**Escopo:** Este documento define os postulados mínimos do **Tier 0 (Core Científico)** do Princípio da Vibração Geométrica Universal (PVGU). Extensões (coerência neural, PNO/ONTI forte, tecnoassinaturas, engenharia de espaço-tempo) pertencem a Tiers superiores e não são tratadas aqui.
+
+**Versão:** 1.0 (Junho 2026)  
+**Autor:** Isaías Balthazar da Silva  
+**Status:** Proposta para revisão e aprovação
 
 ---
 
@@ -25,38 +25,28 @@ Perturbações e estruturas emergem como **modos vibracionais** e **gradientes d
 ### Postulado 2 — Impedância Geométrica (Impedância de Balthazar)
 A propagação de energia, curvatura e informação no espaço-tempo é modulada por uma **impedância geométrica** efetiva \( Z(x,t) \), definida como função da densidade de energia e da rigidez local:
 
-\[
-Z(x,t) = \sqrt{\frac{\rho(x,t)}{K(x,t)}}
-\]
+\[ Z(x,t) = \sqrt{\frac{\rho(x,t)}{K(x,t)}} \]
 
 ou, em formulação estendida para gradientes:
 
-\[
-Z_g = \frac{\partial C / \partial x}{\partial \rho / \partial x}
-\]
+\[ Z_g = \frac{\partial C / \partial x}{\partial \rho / \partial x} \]
 
 onde \( C(x,t) \) é a rigidez geométrica efetiva.
 
 Esta impedância produz uma **gravidade efetiva** modificada:
 
-\[
-G_{\text{eff}}(x,t) = G \cdot [1 + Z(x,t)]
-\]
+\[ G_{\rm eff}(x,t) = G \cdot [1 + Z(x,t)] \]
 
-e um termo geométrico adicional na equação de Poisson/gravity:
+e um termo geométrico adicional na equação de gravidade:
 
-\[
-\nabla \cdot \vec{g} = -4\pi G \rho + \nabla Z
-\]
+\[ \nabla \cdot \vec{g} = -4\pi G \rho + \nabla Z \]
 
 ### Postulado 3 — Expansão e Dinâmica Cosmológica como Relaxamento Vibracional
 A expansão cósmica observada surge primariamente como **relaxamento de tensão geométrica primordial** na malha elástica, e não como efeito de uma constante cosmológica \( \Lambda \) constante ou energia escura exótica.
 
 A equação de Friedmann é modificada pela introdução de um termo dinâmico de relaxamento vibracional \( \Gamma(z) \):
 
-\[
-H(z)^2 = H_0^2 \left[ \Omega_m (1+z)^3 + \Omega_r (1+z)^4 + \Gamma(z) \right]
-\]
+\[ H(z)^2 = H_0^2 \left[ \Omega_m (1+z)^3 + \Omega_r (1+z)^4 + \Gamma(z) \right] \]
 
 onde \( \Gamma(z) \) é derivado da evolução da rigidez efetiva \( C(z) = C_0 (1+z)^\beta e^{-\gamma z} \).
 
@@ -72,9 +62,7 @@ Universos ou regiões multiversais cujos parâmetros (geometria \( G \), frequê
 
 Isso é quantificado operacionalmente por funcionais de estabilidade do tipo:
 
-\[
-\Omega = e^{-\lambda \Delta G} \cdot e^{-\mu \Delta \alpha} \cdot \cos(\Phi V) \cdot S(\kappa)
-\]
+\[ \Omega = e^{-\lambda \Delta G} \cdot e^{-\mu \Delta \alpha} \cdot \cos(\Phi V) \cdot S(\kappa) \]
 
 onde \( \Delta G \) e \( \Delta \alpha \) são desvios críticos, \( \Phi V \) é a fase harmônica e \( S(\kappa) \) representa suporte cosmológico.
 
