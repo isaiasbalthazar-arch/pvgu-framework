@@ -1,0 +1,77 @@
+# PVGU — Postulados Mínimos (Tier 0 — Core Científico)
+
+**Versão:** 1.0 (Junho 2026)  
+**Autor:** Isaías Balthazar da Silva  
+**Status:** Proposta para revisão e aprovação
+
+---
+
+## Princípio Fundamental
+
+O espaço-tempo é modelado como uma **malha elástica vibracional ativa**, cuja dinâmica interna (compressão, rarefação, rigidez e impedância) gera emergentemente os efeitos gravitacionais, cosmológicos e de estabilidade estrutural.
+
+---
+
+## Postulados
+
+### Postulado 1 — Natureza Vibracional e Elástica do Espaço-Tempo
+O espaço-tempo é uma malha elástica vibracional contínua caracterizada por:
+- Rigidez efetiva local \( K(x,t) \)
+- Densidade de energia local \( \rho(x,t) \)
+- Campo vibracional escalar \( \Psi(x,t) \)
+
+Perturbações e estruturas emergem como modos vibracionais e gradientes de impedância nesta malha.
+
+### Postulado 2 — Impedância Geométrica (Impedância de Balthazar)
+A propagação de energia e curvatura é modulada por uma **impedância geométrica** efetiva:
+
+\[ Z(x,t) = \sqrt{\frac{\rho(x,t)}{K(x,t)}} \]
+
+Versão estendida com gradientes:
+
+\[ Z_g = \frac{\partial C / \partial x}{\partial \rho / \partial x} \]
+
+Esta impedância define uma gravidade efetiva modificada:
+
+\[ G_{\rm eff}(x,t) = G \cdot [1 + Z(x,t)] \]
+
+e introduz um termo geométrico adicional na equação de gravidade:
+
+\[ \nabla \cdot \vec{g} = -4\pi G \rho + \nabla Z \]
+
+### Postulado 3 — Expansão Cosmológica como Relaxamento Vibracional
+A expansão cósmica surge principalmente como **relaxamento de tensão geométrica primordial**, e não como efeito de uma constante cosmológica \( \Lambda \).
+
+A equação de Friedmann é modificada por um termo dinâmico de relaxamento vibracional \( \Gamma(z) \):
+
+\[ H(z)^2 = H_0^2 \left[ \Omega_m (1+z)^3 + \Omega_r (1+z)^4 + \Gamma(z) \right] \]
+
+onde \( \Gamma(z) \) deriva da rigidez efetiva \( C(z) = C_0 (1+z)^\beta e^{-\gamma z} \).
+
+### Postulado 4 — Nós de Compressão e Rarefação
+- Buracos negros correspondem a **nós de compressão geométrica extrema**.
+- Vazios cósmicos (ex.: Boötes Void) correspondem a **domínios de rarefação geométrica extrema**.
+- Ondas gravitacionais e neutrinos atuam como acopladores vibracionais entre esses regimes.
+
+### Postulado 5 — Estabilidade via Seleção Vibracional Harmônica
+A estabilidade de leis físicas (incluindo o valor de \( \alpha \)) resulta de **modos vibracionais harmônicos ressonantes**.
+
+Parâmetros que se alinham com modos estáveis **persistem**; desvios críticos são suprimidos. Isso é quantificado por:
+
+\[ \Omega = e^{-\lambda \Delta G} \cdot e^{-\mu \Delta \alpha} \cdot \cos(\Phi V) \cdot S(\kappa) \]
+
+O **PNO** e o **ONTI** são ferramentas operacionais para quantificar essa seleção (detalhamento em Tier 1).
+
+---
+
+## Escopo e Limites (Tier 0)
+
+- Este é o **núcleo mínimo** do PVGU.
+- Proposto como **teoria efetiva** em escalas cosmológicas e astrofísicas.
+- Não substitui a Relatividade Geral nem a Mecânica Quântica.
+- A recuperação dos sucessos do modelo padrão (CMB, BBN, etc.) deve ser demonstrada em trabalhos futuros.
+- Previsões e testes falsificáveis estão no documento `PREDICTIONS_CATALOG.md`.
+
+---
+
+*Documento canônico do Tier 0. Atualizar sempre que houver refinamento significativo.*
